@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "insurance",
+            "intents": [
+                {
+                    "name": "CommandBot",
+                    "slots": [
+                        {
+                            "name": "command",
+                            "type": "MyCustomSlotType"
+                        }
+                    ],
+                    "samples": [
+                        "{command}",
+                        "{command}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "home"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "MyCustomSlotType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "do something"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "something"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

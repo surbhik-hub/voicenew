@@ -1,0 +1,21 @@
+{
+  "name": "oracle-bot-alexa",
+  "version": "1.0.0",
+  "description": "Alexa integration",
+  "main": "service.js",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@oracle/bots-node-sdk": "2.0.6",
+    "@postman/tunnel-agent": "^0.6.3",
+    "alexa-app": "^4.2.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "ngrok": "^3.2.7",
+    "postman": "^0.2.0",
+    "postman-request": "^2.88.1-postman.24",
+    "pubsub-js": "^1.5.4",
+    "underscore": "^1.8.3",
+    "util": "^0.10.3"
+  }
+}
