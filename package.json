@@ -10,7 +10,7 @@
     "@postman/tunnel-agent": "^0.6.3",
     "alexa-app": "^4.2.0",
     "body-parser": "^1.15.2",
-    "express": "^4.14.0",
+    "express": "^4.17.3",
     "ngrok": "^3.2.7",
     "postman": "^0.2.0",
     "postman-request": "^2.88.1-postman.24",
